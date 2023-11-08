@@ -34,6 +34,15 @@ Example using protobuf for I/F of pyo3
 $ python setup.py develop
 ```
 
+### Optional
+
+```bash
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $ python setup.py --help-commands # complete list of available commands for your specific package, ie python setup.py build etc. 
+(venv) $ python setup.py develop # changes you make to the package's source code will immediately affect the installed package
+```
+
 ## Testing
 
 ```bash
