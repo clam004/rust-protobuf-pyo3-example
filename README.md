@@ -1,6 +1,6 @@
 # rust-protobuf-pyo3-example
 
-Example using protobuf for I/F of pyo3
+How to use Protocol Buffers (protobuf) as an interface (I/F) between Rust code (using pyo3) and Python code
 
 ## Directory structures
 
@@ -32,6 +32,15 @@ Example using protobuf for I/F of pyo3
 
 ```bash
 $ python setup.py develop
+```
+
+### Optional
+
+```bash
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $ python setup.py --help-commands # complete list of available commands for your specific package, ie python setup.py build etc. 
+(venv) $ python setup.py develop # changes you make to the package's source code will immediately affect the installed package
 ```
 
 ## Testing
