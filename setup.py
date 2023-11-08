@@ -69,7 +69,7 @@ class PyTest(TestCommand):
 
 
 setup_requires = ["setuptools-rust>=0.10.1", "wheel"]
-install_requires = []
+install_requires = ["protobuf==3.20.0"]  # Add protobuf as a specific dependency
 tests_require = install_requires + ["pytest", "pytest-benchmark"]
 
 # compile proto
