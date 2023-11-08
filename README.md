@@ -1,6 +1,6 @@
 # rust-protobuf-pyo3-example
 
-Example using protobuf for I/F of pyo3
+How to use Protocol Buffers (protobuf) as an interface (I/F) between Rust code (using pyo3) and Python code
 
 ## Directory structures
 
